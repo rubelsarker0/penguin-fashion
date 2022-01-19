@@ -1,0 +1,50 @@
+/* Google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+
+/* CSS custom properties  */
+:root {
+	--primary-bg-color: #fffbf0;
+	--justify: justify;
+}
+
+/* Generic Styles  */
+
+body {
+	font-family: 'Bebas Neue', cursive;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: 'Spectral', serif;
+}
+
+.text-justify {
+	text-align: var(--justify);
+}
+
+/* header styles  */
+.primary-bg-color {
+	background-color: var(--primary-bg-color);
+}
+.logo {
+	width: 291.11px;
+	height: 39.27px;
+}
+
+/* top banner style  */
+.banner-info-title {
+	font-size: 70px;
+}
+
+.btn-bg {
+	background-image: linear-gradient(180deg, #a4bc46 0%, #85a019 100%);
+}
+
+footer {
+	background-color: #34495ea3;
+}
